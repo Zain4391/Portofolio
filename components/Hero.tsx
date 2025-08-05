@@ -2,6 +2,7 @@
 import React from "react";
 import TypeWriter from "./TypeWriter";
 import { useRouter } from "next/navigation";
+import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   const router = useRouter();
@@ -31,18 +32,7 @@ const Hero = () => {
 
         {/* Your buttons here */}
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button
-            onClick={handleProjectClick}
-            className="bg-gray-700 hover:bg-gray-500 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
-          >
-            View Projects
-          </button>
-          <button
-            onClick={handleContactClick}
-            className="border-2 border-gray-700 text-white hover:bg-gray-700 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300"
-          >
-            Contact Me
-          </button>
+          <ArrowDown className="w-10 h-10 animate-bounce" />
         </div>
       </div>
     </section>
