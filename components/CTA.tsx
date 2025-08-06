@@ -1,7 +1,17 @@
+"use client";
 import { ArrowRight, Github, GithubIcon, Linkedin } from "lucide-react";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const CTA = () => {
+  const router = useRouter();
+  const handleProjectClick = () => {
+    router.push("/projects");
+  };
+
+  const handleGetInTouch = () => {
+    router.push("/contact");
+  };
   return (
     <div className="mt-20 mb-16 px-4">
       <div className="flex flex-col justify-center items-center max-w-4xl mx-auto">
@@ -15,6 +25,7 @@ const CTA = () => {
 
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 items-center justify-center">
           <button
+            onClick={handleProjectClick}
             className="flex items-center space-x-2 bg-gray-700 hover:bg-gray-800 
                            text-white px-6 py-3 rounded-lg font-semibold
                            transition-all duration-300 hover:scale-105 
@@ -25,6 +36,7 @@ const CTA = () => {
           </button>
 
           <button
+            onClick={handleGetInTouch}
             className="border border-gray-600 hover:border-blue-500 
                            text-white px-6 py-3 rounded-lg font-semibold
                            hover:bg-gray-800 transition-all duration-300 

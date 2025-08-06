@@ -19,11 +19,14 @@ const Story = () => {
           </p>
 
           <p className="text-gray-300 leading-relaxed text-base mb-4">
-            Currently pursuing my Bachelor's degree in Computer Science, I've
-            developed expertise in multiple programming languages and
-            frameworks. I'm particularly drawn to full-stack development, where
-            I can work on both the user-facing interfaces and the robust backend
-            systems that power modern applications.
+            Currently pursuing my Bachelor's degree in Computer Science, I’ve
+            built a strong foundation in programming, with hands-on experience
+            across multiple languages and frameworks. My interests lie at the
+            intersection of full-stack development and data science—where I
+            enjoy creating seamless user experiences backed by intelligent,
+            data-driven systems. Whether it’s designing responsive frontends,
+            architecting scalable APIs, or uncovering insights from data, I
+            thrive on building solutions that are both functional and insightful
           </p>
 
           <p className="text-gray-300 leading-relaxed text-base">

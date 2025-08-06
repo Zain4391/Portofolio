@@ -13,7 +13,7 @@ const Info = () => {
             alt="Profile Image"
             width={150}
             height={150}
-            className="relative rounded-full border-4 border-gray-800"
+            className="relative rounded-full border-4 border-gray-800 object-cover"
           />
         </div>
 
