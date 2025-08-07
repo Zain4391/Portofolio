@@ -55,7 +55,7 @@ const ContactMeCard = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/zain-rasool-hashmi-947bb424b/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-blue-700/50 rounded-full hover:bg-blue-600 
